@@ -1,0 +1,33 @@
+.projects-tab {
+  width: 200px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: yellowgreen;
+  padding: 20px;
+  overflow-y: auto;
+  position: sticky;
+  top: 0;
+}
+
+.projects-tab h2 {
+  margin-bottom: 20px;
+}
+
+.projects-tab ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects-tab li {
+  margin-bottom: 10px;
+}
+
+.projects-tab a {
+  color: yellowgreen;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.projects-tab a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+.header {
+  background-color: #333;
+  color: yellowgreen;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.back-button-container {
+  width: 100px;
+}
+
+.header-title {
+  margin: 0;
+  text-align: center;
+  flex-grow: 1;
+  color: yellowgreen;
+}
+
+.back-button {
+  background-color: transparent;
+  border: none;
+  color: yellowgreen;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.placeholder {
+  width: 100px;
+}
