@@ -4,6 +4,7 @@ import HomePage from './components/HomePage';
 import './resources/styles/App.css'
 import Header from "./components/Header";
 import ErrorPage from "./components/ErrorPage";
+import { Calculator } from "./projects/Calculator/Calculator";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/todo" element={<TodoListComponent />} />
+          <Route path="/calculator" element={<Calculator />} /> 
           <Route path="*" element={<ErrorPage />} />
         </Routes>
       </main>

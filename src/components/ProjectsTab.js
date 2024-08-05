@@ -5,6 +5,7 @@ import '../resources/styles/ProjectsTab.css';
 const ProjectsTab = () => {
   const projects = [
     { name: 'Todo List', path: '/todo' },
+    { name: 'Calculator', path: '/calculator' },
   ];
 
   return (
